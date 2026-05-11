@@ -8,4 +8,5 @@ sys.path.insert(0, root)
 sys.path.insert(0, os.path.join(root, "accessguard"))
 
 from accessguard.main import main
+
 main()
