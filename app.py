@@ -1,6 +1,7 @@
 import sys
 import os
 from accessguard.main import main
+
 # Add root so 'accessguard' is a proper package (fixes relative imports)
 root = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, root)

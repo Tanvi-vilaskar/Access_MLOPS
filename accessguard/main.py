@@ -95,9 +95,7 @@ def main():
         password = st.text_input("Password", type="password")
         mfa_enabled = st.checkbox("Enable MFA?")
 
-        st.info(
-            "📸 Please capture a photo of your face to complete registration."
-        )
+        st.info("📸 Please capture a photo of your face to complete registration.")
 
         reg_photo = st.camera_input(
             "Take a photo for face registration",
@@ -109,9 +107,7 @@ def main():
                 st.warning("Enter both username and password")
 
             elif reg_photo is None:
-                st.warning(
-                    "📸 Please capture your face photo before registering."
-                )
+                st.warning("📸 Please capture your face photo before registering.")
 
             else:
                 with st.spinner("Detecting face..."):
@@ -135,9 +131,7 @@ def main():
                         )
 
                     else:
-                        st.success(
-                            f"✅ User {username} registered with ID {uid}"
-                        )
+                        st.success(f"✅ User {username} registered with ID {uid}")
                         st.session_state.registration_done = True
 
     # ---------------- LOGIN ----------------
@@ -147,9 +141,7 @@ def main():
         username = st.text_input("Enter username")
         password = st.text_input("Enter password", type="password")
 
-        st.info(
-            "📸 Please capture a photo of your face to verify your identity."
-        )
+        st.info("📸 Please capture a photo of your face to verify your identity.")
 
         login_photo = st.camera_input(
             "Take a photo to verify your face",
@@ -163,9 +155,7 @@ def main():
 
             # ---------------- Face Verification ----------------
             if login_photo is None:
-                st.warning(
-                    "📸 Please capture your face photo before logging in."
-                )
+                st.warning("📸 Please capture your face photo before logging in.")
                 st.stop()
 
             with st.spinner("Verifying face..."):
@@ -208,9 +198,7 @@ def main():
                 )
 
             else:
-                user_row = users.loc[
-                    users["Username"] == username
-                ].iloc[0]
+                user_row = users.loc[users["Username"] == username].iloc[0]
 
                 if not check_password(
                     password,
@@ -289,7 +277,8 @@ def main():
                         )
 
                         st.warning(
-                            "⚠️ Medium risk detected — MFA verification required.")
+                            "⚠️ Medium risk detected — MFA verification required."
+                        )
 
                         st.session_state.show_mfa_camera = True
 
@@ -307,9 +296,7 @@ def main():
                             reasons=reasons,
                         )
 
-                        st.success(
-                            f"✅ Login allowed. Welcome, {username}!"
-                        )
+                        st.success(f"✅ Login allowed. Welcome, {username}!")
 
                     # ---------------- BLOCK ----------------
                     elif "BLOCK" in decision:
@@ -325,20 +312,13 @@ def main():
                             reasons=reasons,
                         )
 
-                        st.error(
-                            "❌ High risk detected. Access denied."
-                        )
+                        st.error("❌ High risk detected. Access denied.")
 
         # ---------------- MFA FLOW ----------------
-        if (
-            st.session_state.show_mfa_camera
-            and not st.session_state.mfa_verified
-        ):
+        if st.session_state.show_mfa_camera and not st.session_state.mfa_verified:
             st.subheader("Step 2: Face Verification")
 
-            st.info(
-                "Please capture a photo of your face using the camera below."
-            )
+            st.info("Please capture a photo of your face using the camera below.")
 
             mfa_photo = st.camera_input(
                 "Capture your face photo",
@@ -348,9 +328,7 @@ def main():
             if mfa_photo is not None:
                 info = st.session_state.login_info
 
-                with st.spinner(
-                    "Analyzing image for face detection..."
-                ):
+                with st.spinner("Analyzing image for face detection..."):
                     success = check_face_in_image(mfa_photo)
 
                 updated_decision = "ALLOW" if success else "BLOCK"
@@ -360,20 +338,12 @@ def main():
 
                 idx = logins[
                     (logins["Username"] == info["username"])
-                    & (
-                        logins["Risk Decision"]
-                        == "ALLOW with MFA"
-                    )
-                    & (
-                        logins["Timestamp"]
-                        == info["timestamp"]
-                    )
+                    & (logins["Risk Decision"] == "ALLOW with MFA")
+                    & (logins["Timestamp"] == info["timestamp"])
                 ].index
 
                 if not idx.empty:
-                    logins.loc[idx[0], "Risk Decision"] = (
-                        updated_decision
-                    )
+                    logins.loc[idx[0], "Risk Decision"] = updated_decision
 
                     logins.loc[idx[0], "Outcome"] = outcome
 
@@ -399,9 +369,7 @@ def main():
                     )
 
                 else:
-                    st.error(
-                        "❌ MFA verification failed. Access denied."
-                    )
+                    st.error("❌ MFA verification failed. Access denied.")
 
                 st.session_state.mfa_verified = True
                 st.session_state.show_mfa_camera = False
@@ -414,14 +382,10 @@ def main():
             model, encoders = train_login_model()
 
             if model:
-                st.success(
-                    "✅ Model trained & saved successfully."
-                )
+                st.success("✅ Model trained & saved successfully.")
 
             else:
-                st.warning(
-                    "⚠️ Not enough data to train model (need ≥10 rows)."
-                )
+                st.warning("⚠️ Not enough data to train model (need ≥10 rows).")
 
     # ---------------- ADMIN ----------------
     elif page == "Admin":
@@ -451,15 +415,11 @@ def main():
 
                 return "UNKNOWN"
 
-            logins["Risk Decision"] = logins[
-                "Risk Decision"
-            ].apply(normalize_decision)
+            logins["Risk Decision"] = logins["Risk Decision"].apply(normalize_decision)
 
             st.write("📊 Login Decisions Summary:")
 
-            decision_counts = logins[
-                "Risk Decision"
-            ].value_counts()
+            decision_counts = logins["Risk Decision"].value_counts()
 
             st.write(decision_counts)
 
@@ -468,9 +428,7 @@ def main():
 
             st.write("**Most Frequent Blocked Users:**")
 
-            blocked_users = logins[
-                logins["Outcome"] == 1
-            ]["Username"].value_counts()
+            blocked_users = logins[logins["Outcome"] == 1]["Username"].value_counts()
 
             if not blocked_users.empty:
                 st.bar_chart(blocked_users)
@@ -480,31 +438,21 @@ def main():
 
             st.write("**Blocked Attempts Over Time:**")
 
-            blocked_time = logins[
-                logins["Outcome"] == 1
-            ].copy()
+            blocked_time = logins[logins["Outcome"] == 1].copy()
 
             if not blocked_time.empty:
-                blocked_time["Date"] = pd.to_datetime(
-                    blocked_time["Timestamp"]
-                ).dt.date
+                blocked_time["Date"] = pd.to_datetime(blocked_time["Timestamp"]).dt.date
 
-                blocked_per_day = blocked_time.groupby(
-                    "Date"
-                ).size()
+                blocked_per_day = blocked_time.groupby("Date").size()
 
                 st.line_chart(blocked_per_day)
 
             else:
                 st.info("No blocked attempts over time.")
 
-            st.write(
-                "**Recent Blocked Users (including MFA failures):**"
-            )
+            st.write("**Recent Blocked Users (including MFA failures):**")
 
-            blocked_recent = logins[
-                logins["Outcome"] == 1
-            ].sort_values(
+            blocked_recent = logins[logins["Outcome"] == 1].sort_values(
                 "Timestamp",
                 ascending=False,
             )
@@ -551,9 +499,7 @@ def main():
             with st.chat_message(msg["role"]):
                 st.markdown(msg["content"])
 
-        if prompt := st.chat_input(
-            "Ask about login history..."
-        ):
+        if prompt := st.chat_input("Ask about login history..."):
             st.session_state.chat_messages.append(
                 {
                     "role": "user",
