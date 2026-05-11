@@ -1,0 +1,177 @@
+name: AccessGuard MLOps Pipeline
+
+on:
+  push:
+    branches: [main, develop]
+
+  pull_request:
+    branches: [main]
+
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 2 * * *"
+
+env:
+  PYTHON_VERSION: "3.10"
+  MODEL_PATH: models/accessguard_model.pkl
+  METRICS_PATH: mlops/monitoring/metrics.json
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+  
+permissions:
+  contents: write
+
+jobs:
+
+# ─────────────────────────────
+# JOB 1 — LINT
+# ─────────────────────────────
+  lint:
+    name: "1️⃣ Lint & Format Check"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install lint tools
+        run: |
+          pip install --upgrade pip
+          pip install black flake8
+
+      - name: Black Check (must match local)
+        run: black --check --line-length 88 .
+
+      - name: Flake8 (relaxed)
+        run: |
+          flake8 . \
+            --max-line-length=100 \
+            --extend-ignore=E203,W503,E501 \
+            --count --statistics
+
+# ─────────────────────────────
+# JOB 2 — TEST
+# ─────────────────────────────
+  test:
+    name: "2️⃣ Run Tests"
+    runs-on: ubuntu-latest
+    needs: lint
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest pytest-cov
+
+      - name: Run tests
+        run: |
+          pytest tests/ -v \
+            --cov=accessguard \
+            --cov=mlops
+
+# ─────────────────────────────
+# JOB 3 — TRAIN
+# ─────────────────────────────
+  train:
+    name: "3️⃣ Train Model"
+    runs-on: ubuntu-latest
+    needs: test
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run training
+        run: python mlops/pipeline/train_pipeline.py
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: model-artifacts
+          path: |
+            models/
+            mlops/monitoring/
+
+# ─────────────────────────────
+# JOB 4 — DRIFT
+# ─────────────────────────────
+  drift_check:
+    name: "4️⃣ Drift Detection"
+    runs-on: ubuntu-latest
+    needs: train
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: model-artifacts
+          path: .
+
+      - name: Run drift monitor
+        run: python mlops/monitoring/monitor_drift.py
+
+# ─────────────────────────────
+# JOB 5 — DEPLOY
+# ─────────────────────────────
+  deploy:
+    name: "5️⃣ Deploy Model"
+    runs-on: ubuntu-latest
+    needs: drift_check
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: model-artifacts
+          path: .
+
+      - name: Commit model
+        run: |
+          git config user.name "MLOps Bot"
+          git config user.email "bot@mlops.com"
+
+          git add models/ mlops/monitoring/
+
+          git diff --cached --quiet || \
+          git commit -m "🤖 Auto-update model"
+
+          git push

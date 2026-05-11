@@ -1,0 +1,415 @@
+Username,IP,Device,Browser,Timestamp,MFA Enabled,Outcome,Risk Score,Risk Decision,Reasons
+tanvi,10.154.73.118,Windows 10 (AMD64),Streamlit-App,2025-09-21T16:07:51.370845,1,0.0,,,
+tanvi,10.82.88.118,Windows 10 (AMD64),Streamlit-App,2025-09-21T16:20:03.869146,1,0.0,,,
+aditya,10.82.88.118,Windows 11 (x64),Chrome 115,2025-09-21T16:47:02.869146,0,1.0,,,
+shruti,10.25.20.5,Ubuntu 22.04 (x86_64),Edge 140,2025-09-21T17:11:45.123456,1,1.0,,,
+rahul,10.12.45.99,macOS Ventura (ARM64),Firefox 116,2025-09-21T17:55:09.987654,0,0.0,,,
+neha,10.200.1.5,Android 13 (Pixel),Mobile Safari,2025-09-21T18:03:22.345678,1,1.0,,,
+amar,10.33.77.8,iOS 16 (iPhone),Chrome Mobile,2025-09-21T18:35:48.456789,0,0.0,,,
+priya,10.99.12.55,Windows 10 (AMD64),Streamlit-App,2025-09-21T19:05:11.234567,1,1.0,,,
+sunil,10.66.6.6,Ubuntu 24.04 (x86_64),Chrome 114,2025-09-21T19:42:59.654321,0,0.0,,,
+meera,10.44.55.100,Windows 11 (x64),Edge 139,2025-09-21T20:10:05.567890,1,1.0,,,
+raj,10.11.11.11,Windows 10 (AMD64),Firefox 115,2025-09-21T20:29:33.112233,0,0.0,,,
+tanvi,10.141.158.118,Windows 10 (AMD64),Streamlit-App,2025-09-23T03:00:39.610562,1,0.0,,,
+tanvi,10.141.158.118,Windows 10 (AMD64),Streamlit-App,2025-09-23T03:25:58.399695,1,0.0,,,
+harsh,10.141.158.118,Windows 10 (AMD64),Streamlit-App,2025-09-25T00:06:29.420218,1,0.0,,,
+harsh,10.82.88.118,Windows 10 (AMD64),Streamlit-App,2025-09-25T00:08:06.324043,1,1.0,,,
+harsh,10.82.88.118,Windows 10 (AMD64),Streamlit-App,2025-09-25T00:08:23.344076,1,1.0,,,
+harsh,10.82.88.118,Windows 10 (AMD64),Streamlit-App,2025-09-25T00:08:39.512412,1,1.0,,,
+harsh,10.82.88.118,Windows 10 (AMD64),Streamlit-App,2025-09-25T00:08:58.692380,1,1.0,,,
+user1,10.82.88.118,Windows 10 (AMD64),Streamlit-App,2025-09-25T01:01:53.770419,1,0.0,,,
+testuser,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-09-25T11:39:37.237295,1,0.0,,,
+testuser,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T00:17:38.777700,1,0.0,,,
+avishkar,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T01:33:48.229605,1,0.0,0.0,ALLOW ✅,
+pat,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T01:56:48.531359,1,0.0,0.0,ALLOW ✅,[]
+geet12,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T02:42:05.268499,1,0.0,0.0,ALLOW ✅,[]
+sai12,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T02:42:19.759246,1,0.0,0.0,ALLOW ✅,[]
+harsh,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T03:02:34.282540,1,,45.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.59.164.118"", ""Login hour somewhat unusual: 3 (avg 0.0)"", ""MFA enforced due to medium risk""]"
+testuser,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T03:04:32.887202,1,,30.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.59.164.118"", ""MFA enforced due to medium risk""]"
+testuser,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T03:06:25.540492,1,,30.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.59.164.118"", ""MFA enforced due to medium risk""]"
+testuser,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T03:06:38.336424,1,,30.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.59.164.118"", ""MFA enforced due to medium risk""]"
+testuser,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T03:11:57.658980,1,,30.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.59.164.118"", ""MFA enforced due to medium risk""]"
+testuser,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T03:16:20.839286,1,,30.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.59.164.118"", ""MFA enforced due to medium risk""]"
+harsh,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T03:18:03.246395,1,,45.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.59.164.118"", ""Login hour somewhat unusual: 3 (avg 0.5)"", ""MFA enforced due to medium risk""]"
+harsh,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T03:20:13.097706,1,,40.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.59.164.118"", ""Login hour somewhat unusual: 3 (avg 0.9)"", ""MFA enforced due to medium risk""]"
+harsh,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T03:23:30.181240,1,,40.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.59.164.118"", ""Login hour somewhat unusual: 3 (avg 1.1)"", ""MFA enforced due to medium risk""]"
+harsh,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T03:23:57.557335,1,,40.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.59.164.118"", ""Login hour somewhat unusual: 3 (avg 1.3)"", ""MFA enforced due to medium risk""]"
+harsh,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T03:24:03.571086,1,,50.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.59.164.118"", ""5 login attempts in last hour"", ""MFA enforced due to medium risk""]"
+harsh,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T03:27:38.288697,1,,50.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.59.164.118"", ""6 login attempts in last hour"", ""MFA enforced due to medium risk""]"
+harsh,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T03:28:15.710141,1,,50.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.59.164.118"", ""7 login attempts in last hour"", ""MFA enforced due to medium risk""]"
+harsh,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T03:29:57.531318,1,,50.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.59.164.118"", ""8 login attempts in last hour"", ""MFA enforced due to medium risk""]"
+geet12,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T14:53:03.333516,1,,30.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.217.138.118"", ""MFA enforced due to medium risk""]"
+geet12,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T14:59:37.059899,1,,30.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.217.138.118"", ""MFA enforced due to medium risk""]"
+geet12,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T14:59:56.970407,1,,30.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.217.138.118"", ""MFA enforced due to medium risk""]"
+geet12,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T15:03:57.506201,1,,30.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.217.138.118"", ""MFA enforced due to medium risk""]"
+geet12,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T15:05:58.703386,1,,45.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.217.138.118"", ""Login hour somewhat unusual: 15 (avg 11.8)"", ""MFA enforced due to medium risk""]"
+geet12,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T15:05:58.703386,1,0.0,45.0,ALLOW,"[""Login from new IP: 10.217.138.118"", ""Login hour somewhat unusual: 15 (avg 11.8)"", ""MFA enforced due to medium risk""]"
+geet12,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-05T15:07:15.431196,1,1.0,60.0,BLOCK ❌,"[""Login from new IP: 10.217.138.118"", ""Login hour somewhat unusual: 15 (avg 12.7)"", ""6 login attempts in last hour"", ""High risk login attempt""]"
+omkar,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-06T10:05:33.068734,1,0.0,0.0,ALLOW ✅,[]
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-06T10:06:36.908426,1,,50.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.25.20.0"", ""Login at unusual hour: 10 (user average: 1.9 \u00b1 1.4)"", ""MFA enforced due to medium risk""]"
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-06T10:06:36.908426,1,0.0,50.0,ALLOW,"[""Login from new IP: 10.25.20.0"", ""Login at unusual hour: 10 (user average: 1.9 \u00b1 1.4)"", ""MFA enforced due to medium risk""]"
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-06T10:08:36.817000,1,,50.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.25.20.0"", ""Login at unusual hour: 10 (user average: 2.9 \u00b1 3.0)"", ""MFA enforced due to medium risk""]"
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-06T10:08:36.817000,1,0.0,50.0,ALLOW,"[""Login from new IP: 10.25.20.0"", ""Login at unusual hour: 10 (user average: 2.9 \u00b1 3.0)"", ""MFA enforced due to medium risk""]"
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-06T10:08:45.263069,1,,50.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.25.20.0"", ""Login at unusual hour: 10 (user average: 3.7 \u00b1 3.6)"", ""MFA enforced due to medium risk""]"
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-06T10:08:45.263069,1,1.0,50.0,BLOCK❌,"[""Login from new IP: 10.25.20.0"", ""Login at unusual hour: 10 (user average: 3.7 \u00b1 3.6)"", ""MFA enforced due to medium risk""]"
+omkar,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-06T11:13:13.340773,1,0.0,0.0,ALLOW ✅,[]
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-06T11:14:18.474405,1,,50.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.25.20.0"", ""Login at unusual hour: 11 (user average: 4.3 \u00b1 3.9)"", ""MFA enforced due to medium risk""]"
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-06T11:14:18.474405,1,0.0,50.0,ALLOW,"[""Login from new IP: 10.25.20.0"", ""Login at unusual hour: 11 (user average: 4.3 \u00b1 3.9)"", ""MFA enforced due to medium risk""]"
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-06T11:17:01.321149,1,,50.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.25.20.0"", ""Login at unusual hour: 11 (user average: 5.0 \u00b1 4.2)"", ""MFA enforced due to medium risk""]"
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-06T11:17:01.321149,1,0.0,50.0,ALLOW,"[""Login from new IP: 10.25.20.0"", ""Login at unusual hour: 11 (user average: 5.0 \u00b1 4.2)"", ""MFA enforced due to medium risk""]"
+tanvi,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-06T11:46:38.635928,1,1.0,95.0,BLOCK ❌,"[""Login from new IP: 10.25.20.0"", ""Different device detected: Windows 10 (AMD64)"", ""Different browser detected: Streamlit-App"", ""Multiple anomalies detected"", ""High risk login attempt""]"
+geet12,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-06T11:47:58.685729,1,,40.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.25.20.0"", ""Login hour somewhat unusual: 11 (avg 13.0)"", ""MFA enforced due to medium risk""]"
+geet12,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-06T11:47:58.685729,1,1.0,40.0,BLOCK❌,"[""Login from new IP: 10.25.20.0"", ""Login hour somewhat unusual: 11 (avg 13.0)"", ""MFA enforced due to medium risk""]"
+riddhika,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-07T10:31:58.171560,1,1.0,1.0,BLOCK❌,"[""Incorrect password""]"
+riddhika,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-07T10:32:06.061450,1,1.0,1.0,BLOCK❌,"[""Incorrect password""]"
+piyush,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-07T10:33:24.583660,1,0.0,0.0,ALLOW ✅,[]
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-07T10:33:48.945059,1,,50.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.25.20.0"", ""Login at unusual hour: 10 (user average: 5.5 \u00b1 4.3)"", ""MFA enforced due to medium risk""]"
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-07T10:33:48.945059,1,0.0,50.0,ALLOW,"[""Login from new IP: 10.25.20.0"", ""Login at unusual hour: 10 (user average: 5.5 \u00b1 4.3)"", ""MFA enforced due to medium risk""]"
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-07T10:34:23.349134,1,,50.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.25.20.0"", ""Login at unusual hour: 10 (user average: 5.8 \u00b1 4.3)"", ""MFA enforced due to medium risk""]"
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-07T10:34:23.349134,1,0.0,50.0,ALLOW,"[""Login from new IP: 10.25.20.0"", ""Login at unusual hour: 10 (user average: 5.8 \u00b1 4.3)"", ""MFA enforced due to medium risk""]"
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-07T10:34:29.794342,1,,50.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.25.20.0"", ""Login at unusual hour: 10 (user average: 6.1 \u00b1 4.3)"", ""MFA enforced due to medium risk""]"
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-07T10:34:29.794342,1,1.0,50.0,BLOCK❌,"[""Login from new IP: 10.25.20.0"", ""Login at unusual hour: 10 (user average: 6.1 \u00b1 4.3)"", ""MFA enforced due to medium risk""]"
+kavya,10.25.20.5,Ubuntu 22.04 (x86_64),Edge 140,2025-10-07T11:05:01.123456,1,0.0,0.0,ALLOW ✅,[]
+vikas,10.154.73.118,Windows 10 (AMD64),Chrome 118,2025-10-07T11:06:22.987654,0,1.0,80.0,BLOCK ❌,"[""Login from new IP: 10.154.73.118"", ""MFA not enabled - high risk""]"
+tanvi,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-07T11:08:45.345678,1,0.0,10.0,ALLOW with MFA 🔐,"[""""Login hour slightly unusual: 11 (avg 10.5)""""]"
+prasad,10.82.88.118,macOS Ventura (ARM64),Safari 17,2025-10-07T11:10:09.654321,1,0.0,0.0,ALLOW ✅,[]
+shreya,10.12.45.99,iOS 16 (iPhone),Mobile Safari,2025-10-07T11:12:30.234567,0,1.0,1.0,BLOCK❌,"[""""Incorrect password""""]"
+aditya,10.33.77.8,Windows 11 (x64),Chrome 115,2025-10-07T11:15:55.789012,0,1.0,75.0,BLOCK ❌,"[""Login from new IP: 10.33.77.8"", ""MFA not enabled - high risk""]"
+sunil,10.66.6.6,Ubuntu 24.04 (x86_64),Firefox 120,2025-10-07T11:18:11.334455,1,0.0,0.0,ALLOW ✅,[]
+neha,10.200.1.5,Android 14 (Samsung),Chrome Mobile,2025-10-07T11:20:44.998877,1,1.0,40.0,ALLOW with MFA 🔐,"[""Different device detected: Android 14 (Samsung)"", ""MFA enforced due to medium risk""]"
+priya,10.99.12.55,Windows 10 (AMD64),Streamlit-App,2025-10-07T11:23:01.445566,1,0.0,0.0,ALLOW ✅,[]
+raj,10.11.11.11,Windows 10 (AMD64),Firefox 115,2025-10-07T11:25:15.001122,0,0.0,0.0,ALLOW ✅,[]
+amit,192.168.1.10,Windows 10 (AMD64),Edge 120,2025-10-07T12:05:00.111222,0,0.0,0.0,ALLOW ✅,[]
+kavya,10.25.20.5,Ubuntu 22.04 (x86_64),Firefox 118,2025-10-07T12:07:34.567890,1,0.0,0.0,ALLOW ✅,[]
+vikas,172.16.0.5,macOS Ventura (ARM64),Safari 17,2025-10-07T23:45:11.998877,1,1.0,85.0,BLOCK ❌,"[""Impossible travel detected from last known location"", ""Login at unusual hour: 23 (user average: 10.0)"", ""High risk login attempt""]"
+tanvi,10.154.73.118,Android 13 (Pixel),Chrome Mobile,2025-10-08T06:30:51.370845,1,,55.0,ALLOW with MFA 🔐,"[""Different device detected: Android 13 (Pixel)"", ""Login hour somewhat unusual: 6 (avg 11.5)"", ""MFA enforced due to high risk""]"
+shreya,10.12.45.99,iOS 16 (iPhone),Mobile Safari,2025-10-08T09:15:09.111222,0,0.0,0.0,ALLOW ✅,[]
+prasad,10.82.88.118,Windows 11 (x64),Chrome 119,2025-10-08T09:15:20.334455,1,1.0,1.0,BLOCK ❌,"[""Incorrect password""]"
+meera,10.44.55.100,Windows 11 (x64),Edge 139,2025-10-08T09:15:45.777888,1,0.0,0.0,ALLOW ✅,[]
+aditya,10.25.20.0,Windows 11 (x64),Chrome 115,2025-10-08T11:00:12.345678,0,,45.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.25.20.0"", ""MFA enforced due to medium risk (despite 0 MFA enabled)""]"
+omkar,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-08T11:05:55.223344,1,1.0,1.0,BLOCK❌,"[""Incorrect password""]"
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-08T11:10:00.667788,1,0.0,0.0,ALLOW ✅,[]
+sunil,10.200.1.5,Ubuntu 24.04 (x86_64),Chrome 114,2025-10-08T14:35:10.001122,0,,50.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.200.1.5"", ""MFA enforced due to medium risk""]"
+raj,10.11.11.11,Windows 10 (AMD64),Firefox 115,2025-10-08T17:50:20.334455,0,0.0,0.0,ALLOW ✅,[]
+piyush,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-08T18:00:00.678901,1,1.0,65.0,BLOCK ❌,"[""Password spray detected"", ""Multiple failed logins in 5 minutes"", ""High risk login attempt""]"
+geet12,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-08T19:00:45.123456,1,0.0,0.0,ALLOW ✅,[]
+amar,10.33.77.8,iOS 16 (iPhone),Chrome Mobile,2025-10-08T20:05:00.567890,0,0.0,0.0,ALLOW ✅,[]
+riddhika,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-08T22:15:30.987654,1,1.0,1.0,BLOCK,"[""Incorrect password""]"
+testuser,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-09T01:00:10.445566,1,0.0,0.0,ALLOW ✅,[]
+tanvi,10.141.158.118,Windows 10 (AMD64),Streamlit-App,2025-10-09T03:00:39.610562,1,,40.0,ALLOW with MFA 🔐,"[""Login hour somewhat unusual: 3 (avg 11.0)"", ""MFA enforced due to medium risk""]"
+rahul,10.12.45.99,Windows 10 (AMD64),Firefox 116,2025-10-09T08:00:05.111222,0,,35.0,ALLOW with MFA 🔐,"[""Different device detected: Windows 10 (AMD64)"", ""MFA enforced due to medium risk""]"
+priya,10.99.12.55,Windows 11 (x64),Edge 140,2025-10-09T10:00:00.777888,1,1.0,70.0,BLOCK ❌,"[""Login from new IP: 10.99.12.55"", ""Different device detected: Windows 11 (x64)"", ""High risk login attempt""]"
+jayesh,10.154.73.118,macOS Sonoma (ARM64),Chrome 120,2025-10-09T10:30:15.556677,1,0.0,5.0,ALLOW ✅,"[""""New OS detected""""]"
+sanjana,172.16.0.5,Windows 11 (x64),Edge 141,2025-10-09T11:45:22.001122,0,1.0,1.0,BLOCK❌,"[""""Incorrect password""""]"
+harsh,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-09T14:10:00.334455,1,0.0,0.0,ALLOW ✅,[]
+vikas,10.200.1.5,Android 14 (Pixel),Mobile Safari,2025-10-09T14:50:50.123456,1,,40.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.200.1.5"", ""MFA enforced due to medium risk""]"
+sunil,10.66.6.6,Ubuntu 24.04 (x86_64),Chrome 119,2025-10-09T15:05:05.998877,0,0.0,0.0,ALLOW ✅,[]
+neha,10.82.88.118,iOS 17 (iPhone),Chrome Mobile,2025-10-09T15:22:30.456789,1,1.0,88.0,BLOCK ❌,"[""Login from new IP: 10.82.88.118"", ""Different device detected: iOS 17 (iPhone)"", ""High risk login attempt""]"
+riddhika,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-09T16:00:10.543210,1,0.0,0.0,ALLOW ✅,[]
+pat,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-09T17:30:40.112233,1,0.0,0.0,ALLOW ✅,[]
+aditya,10.33.77.8,Windows 11 (x64),Chrome 115,2025-10-09T18:15:25.778899,0,0.0,0.0,ALLOW ✅,[]
+kavya,10.154.73.118,Ubuntu 22.04 (x86_64),Edge 140,2025-10-09T19:00:00.654321,1,,30.0,ALLOW with MFA 🔐,"[""Different device detected: Ubuntu 22.04 (x86_64)"", ""MFA enforced due to medium risk""]"
+omkar,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-09T20:45:45.990011,1,0.0,0.0,ALLOW ✅,[]
+piyush,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-09T22:00:00.445566,1,0.0,0.0,ALLOW ✅,[]
+raj,10.11.11.11,Windows 10 (AMD64),Firefox 115,2025-10-09T22:05:15.889900,0,0.0,0.0,ALLOW ✅,[]
+shruti,10.154.73.118,Ubuntu 22.04 (x86_64),Edge 140,2025-10-10T00:30:00.111222,1,1.0,90.0,BLOCK ❌,"[""Login from new IP: 10.154.73.118"", ""Different device detected: Ubuntu 22.04 (x86_64)"", ""High risk login attempt""]"
+tanvi,10.82.88.118,Windows 10 (AMD64),Streamlit-App,2025-10-10T04:15:33.778899,1,0.0,0.0,ALLOW ✅,[]
+harsh,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-10T04:20:01.334455,1,,50.0,ALLOW with MFA 🔐,"[""Login hour somewhat unusual: 4 (avg 11.2)"", ""MFA enforced due to medium risk""]"
+user1,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-10T09:30:40.556677,1,0.0,0.0,ALLOW ✅,[]
+zara,10.154.73.118,Windows 10 (AMD64),Edge 122,2025-10-12T18:30:15.556677,1,0.0,0.0,ALLOW ✅,[]
+yash,10.82.88.118,macOS Ventura (ARM64),Chrome 121,2025-10-12T19:00:00.001122,0,1.0,80.0,BLOCK ❌,"[""Login at unusual hour: 19 (avg 11.0)"", ""MFA not enabled - high risk""]"
+rani,10.25.20.5,Ubuntu 22.04 (x86_64),Firefox 122,2025-10-12T20:10:10.334455,1,0.0,0.0,ALLOW ✅,[]
+samir,10.12.45.99,iOS 17 (iPhone),Mobile Safari,2025-10-12T21:45:45.998877,1,1.0,1.0,BLOCK❌,"[""Incorrect password""]"
+tanmay,10.200.1.5,Android 14 (Pixel),Chrome Mobile,2025-10-12T22:00:00.654321,1,0.0,0.0,ALLOW ✅,[]
+anuj,10.141.158.118,Windows 10 (AMD64),Streamlit-App,2025-10-12T23:05:05.123456,1,,40.0,ALLOW with MFA 🔐,"[""Login hour somewhat unusual: 23 (avg 18.0)"", ""MFA enforced due to medium risk""]"
+shikha,10.33.77.8,Windows 11 (x64),Chrome 115,2025-10-13T00:30:30.543210,0,,55.0,ALLOW with MFA 🔐,"[""Login at unusual hour: 0 (user average: 7.0)"", ""MFA not enabled - medium risk""]"
+vijay,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-13T01:40:40.889900,1,0.0,0.0,ALLOW ✅,[]
+neelam,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-13T03:15:15.334455,1,0.0,0.0,ALLOW ✅,[]
+swati,192.168.1.10,Windows 10 (AMD64),Edge 120,2025-10-13T07:00:00.678901,0,0.0,0.0,ALLOW ✅,[]
+kiran,192.168.1.50,Windows 10 (AMD64),Edge 121,2025-10-13T08:30:33.111222,1,0.0,0.0,ALLOW ✅,[]
+mohan,10.25.20.5,Ubuntu 22.04 (x86_64),Edge 140,2025-10-13T09:10:10.445566,1,0.0,0.0,ALLOW ✅,[]
+deepak,10.11.11.11,Windows 10 (AMD64),Firefox 115,2025-10-13T10:05:05.778899,0,0.0,0.0,ALLOW ✅,[]
+gaurav,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-13T11:45:45.123456,1,0.0,0.0,ALLOW ✅,[]
+pooja,10.11.11.11,Windows 10 (AMD64),Firefox 117,2025-10-13T12:00:00.556677,0,1.0,1.0,BLOCK❌,"[""Incorrect password""]"
+alok,10.82.88.118,Linux (x86_64),Firefox 121,2025-10-13T13:30:30.998877,1,,35.0,ALLOW with MFA 🔐,"[""Different browser detected: Firefox 121"", ""MFA enforced due to medium risk""]"
+manish,10.66.6.6,Ubuntu 24.04 (x86_64),Chrome 120,2025-10-13T14:50:50.678901,0,0.0,0.0,ALLOW ✅,[]
+geeta,10.200.1.5,Android 14 (Samsung),Mobile Safari,2025-10-13T16:00:00.987654,1,0.0,0.0,ALLOW ✅,[]
+divya,10.25.20.0,macOS Sonoma (ARM64),Safari 18,2025-10-13T17:15:15.111222,0,1.0,92.0,BLOCK ❌,"[""Login from new IP: 10.25.20.0"", ""Different device detected: macOS Sonoma (ARM64)"", ""High risk login attempt""]"
+suresh,10.44.55.100,Windows 11 (x64),Edge 140,2025-10-13T18:00:00.445566,1,0.0,0.0,ALLOW ✅,[]
+amit,192.168.1.10,Windows 10 (AMD64),Edge 120,2025-10-13T18:30:30.998877,0,0.0,0.0,ALLOW ✅,[]
+pooja,10.11.11.11,Windows 10 (AMD64),Firefox 117,2025-10-13T19:00:00.001122,0,0.0,0.0,ALLOW ✅,[]
+suresh,10.44.55.100,Windows 11 (x64),Edge 140,2025-10-13T20:10:10.334455,1,0.0,0.0,ALLOW ✅,[]
+tina,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-13T23:45:45.998877,1,0.0,0.0,ALLOW ✅,[]
+rohit,172.16.0.5,macOS Ventura (ARM64),Safari 17,2025-10-14T02:00:00.654321,1,1.0,85.0,BLOCK ❌,"[""Impossible travel detected from last known location"", ""Login at unusual hour: 2 (user average: 15.0)"", ""High risk login attempt""]"
+shikha,10.33.77.8,Windows 11 (x64),Chrome 115,2025-10-14T05:30:30.123456,0,0.0,0.0,ALLOW ✅,[]
+vijay,10.25.20.0,Windows 10 (AMD64),Streamlit-App,2025-10-14T07:15:15.543210,1,0.0,0.0,ALLOW ✅,[]
+neelam,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-14T08:00:00.889900,1,,30.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.217.138.118"", ""MFA enforced due to medium risk""]"
+swati,192.168.1.10,Windows 10 (AMD64),Edge 120,2025-10-14T09:30:33.334455,0,0.0,0.0,ALLOW ✅,[]
+mohan,10.25.20.5,Ubuntu 22.04 (x86_64),Edge 140,2025-10-14T10:10:10.678901,1,0.0,0.0,ALLOW ✅,[]
+deepak,10.11.11.11,Windows 10 (AMD64),Firefox 115,2025-10-14T11:45:45.987654,0,0.0,0.0,ALLOW ✅,[]
+gaurav,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-14T12:00:00.111222,1,0.0,0.0,ALLOW ✅,[]
+kunal,10.154.73.118,Windows 10 (AMD64),Chrome 118,2025-10-14T13:30:30.445566,0,1.0,1.0,BLOCK❌,"[""""Incorrect password""""]"
+sneha,10.99.12.55,Windows 11 (x64),Edge 141,2025-10-14T14:00:00.778899,1,0.0,0.0,ALLOW ✅,[]
+zara,10.82.88.118,Windows 10 (AMD64),Edge 122,2025-10-14T15:05:05.123456,1,0.0,0.0,ALLOW ✅,[]
+yash,10.25.20.5,macOS Ventura (ARM64),Chrome 121,2025-10-14T16:00:00.543210,0,,45.0,ALLOW with MFA 🔐,"[""Different device detected: macOS Ventura (ARM64)"", ""MFA not enabled - medium risk""]"
+rani,10.12.45.99,Ubuntu 22.04 (x86_64),Firefox 122,2025-10-14T17:30:30.889900,1,0.0,0.0,ALLOW ✅,[]
+samir,10.200.1.5,iOS 17 (iPhone),Mobile Safari,2025-10-14T18:45:45.334455,1,1.0,60.0,BLOCK ❌,"[""Login from new IP: 10.200.1.5"", ""High risk login attempt""]"
+tanmay,10.141.158.118,Android 14 (Pixel),Chrome Mobile,2025-10-14T20:00:00.678901,1,0.0,0.0,ALLOW ✅,[]
+anuj,10.82.88.118,Windows 10 (AMD64),Streamlit-App,2025-10-14T21:15:15.987654,1,0.0,0.0,ALLOW ✅,[]
+isha,10.25.20.0,Windows 10 (AMD64),Edge 123,2025-10-14T21:40:40.111222,1,0.0,0.0,ALLOW ✅,[]
+mukesh,10.33.77.8,macOS Sonoma (ARM64),Safari 18,2025-10-14T22:30:30.445566,0,,45.0,ALLOW with MFA 🔐,"[""Login at unusual hour: 22 (user average: 14.0)"", ""MFA not enabled - medium risk""]"
+naina,10.11.11.11,Linux (x86_64),Firefox 123,2025-10-14T23:00:00.778899,1,1.0,95.0,BLOCK ❌,"[""Login from new device: Linux (x86_64)"", ""High risk login attempt""]"
+praveen,10.154.73.118,iOS 17 (iPhone),Chrome Mobile,2025-10-15T00:05:05.123456,1,0.0,0.0,ALLOW ✅,[]
+renu,10.66.6.6,Android 14 (Samsung),Mobile Safari,2025-10-15T01:15:15.543210,0,0.0,0.0,ALLOW ✅,[]
+vishal,10.82.88.118,Windows 11 (x64),Streamlit-App,2025-10-15T03:00:00.889900,1,1.0,88.0,BLOCK ❌,"[""Login at unusual hour: 3 (user average: 10.0)"", ""High risk login attempt""]"
+kiran,192.168.1.50,Windows 10 (AMD64),Edge 121,2025-10-15T07:30:33.334455,1,0.0,0.0,ALLOW ✅,[]
+jaya,10.25.20.5,Ubuntu 22.04 (x86_64),Edge 140,2025-10-15T08:10:10.678901,1,0.0,0.0,ALLOW ✅,[]
+sushil,10.44.55.100,Windows 11 (x64),Firefox 120,2025-10-15T09:45:45.987654,0,0.0,0.0,ALLOW ✅,[]
+bindu,10.217.138.118,Windows 10 (AMD64),Chrome 122,2025-10-15T10:00:00.111222,1,,30.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.217.138.118"", ""MFA enforced due to medium risk""]"
+chetan,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-15T11:30:30.445566,1,0.0,0.0,ALLOW ✅,[]
+anita,192.168.1.10,macOS Ventura (ARM64),Safari 17,2025-10-15T12:00:00.778899,0,1.0,75.0,BLOCK ❌,"[""Different device detected: macOS Ventura (ARM64)"", ""MFA not enabled - high risk""]"
+sanjay,10.99.12.55,Windows 10 (AMD64),Edge 141,2025-10-15T13:40:40.123456,1,0.0,0.0,ALLOW ✅,[]
+reema,10.12.45.99,Windows 11 (x64),Firefox 116,2025-10-15T14:15:15.543210,0,0.0,0.0,ALLOW ✅,[]
+mukesh,10.33.77.8,macOS Sonoma (ARM64),Safari 18,2025-10-15T15:00:00.889900,0,0.0,0.0,ALLOW ✅,[]
+naina,10.11.11.11,Windows 10 (AMD64),Firefox 123,2025-10-15T16:30:30.334455,1,0.0,0.0,ALLOW ✅,[]
+isha,10.25.20.0,Windows 10 (AMD64),Edge 123,2025-10-15T17:45:45.678901,1,0.0,0.0,ALLOW ✅,[]
+praveen,10.154.73.118,iOS 17 (iPhone),Chrome Mobile,2025-10-15T18:00:00.987654,1,0.0,0.0,ALLOW ✅,[]
+renu,10.66.6.6,Android 14 (Samsung),Mobile Safari,2025-10-15T19:05:05.111222,0,1.0,1.0,BLOCK❌,"[""""Incorrect password""""]"
+vishal,10.82.88.118,Windows 11 (x64),Streamlit-App,2025-10-15T20:10:10.445566,1,0.0,0.0,ALLOW ✅,[]
+zara,10.59.164.118,Windows 10 (AMD64),Edge 122,2025-10-15T21:33:33.778899,1,0.0,0.0,ALLOW ✅,[]
+yash,10.25.20.5,macOS Ventura (ARM64),Chrome 121,2025-10-15T22:00:00.123456,0,0.0,0.0,ALLOW ✅,[]
+samir,10.12.45.99,iOS 17 (iPhone),Mobile Safari,2025-10-15T23:40:40.543210,1,0.0,0.0,ALLOW ✅,[]
+tanmay,10.200.1.5,Android 14 (Pixel),Chrome Mobile,2025-10-16T00:30:30.889900,1,1.0,65.0,BLOCK ❌,"[""Login at unusual hour: 0 (user average: 18.0)"", ""High risk login attempt""]"
+alok,10.82.88.118,Linux (x86_64),Firefox 121,2025-10-16T01:15:15.334455,1,,40.0,ALLOW with MFA 🔐,"[""Login at unusual hour: 1 (user average: 12.0)"", ""MFA enforced due to medium risk""]"
+preeti,10.12.45.99,iOS 17 (iPhone),Chrome Mobile,2025-10-16T06:00:00.678901,1,0.0,0.0,ALLOW ✅,[]
+manish,10.66.6.6,Ubuntu 24.04 (x86_64),Chrome 120,2025-10-16T07:10:10.987654,0,0.0,0.0,ALLOW ✅,[]
+geeta,10.200.1.5,Android 14 (Samsung),Mobile Safari,2025-10-16T08:30:30.111222,1,0.0,0.0,ALLOW ✅,[]
+sushil,10.44.55.100,Windows 11 (x64),Firefox 120,2025-10-16T09:00:00.445566,0,0.0,0.0,ALLOW ✅,[]
+bindu,10.217.138.118,Windows 10 (AMD64),Chrome 122,2025-10-16T10:05:05.778899,1,0.0,0.0,ALLOW ✅,[]
+chetan,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-16T11:15:15.123456,1,0.0,0.0,ALLOW ✅,[]
+anita,192.168.1.10,macOS Ventura (ARM64),Safari 17,2025-10-16T12:00:00.543210,0,0.0,0.0,ALLOW ✅,[]
+sanjay,10.99.12.55,Windows 10 (AMD64),Edge 141,2025-10-16T13:30:30.889900,1,0.0,0.0,ALLOW ✅,[]
+reema,10.12.45.99,Windows 11 (x64),Firefox 116,2025-10-16T14:40:40.334455,0,0.0,0.0,ALLOW ✅,[]
+shikha,10.33.77.8,Windows 11 (x64),Chrome 115,2025-10-16T15:00:00.678901,0,0.0,0.0,ALLOW ✅,[]
+naina,10.11.11.11,Windows 10 (AMD64),Firefox 123,2025-10-16T16:10:10.987654,1,0.0,0.0,ALLOW ✅,[]
+praveen,10.154.73.118,iOS 17 (iPhone),Chrome Mobile,2025-10-16T17:30:30.111222,1,1.0,1.0,BLOCK❌,"[""""Incorrect password""""]"
+renu,10.66.6.6,Android 14 (Samsung),Mobile Safari,2025-10-16T18:00:00.445566,0,0.0,0.0,ALLOW ✅,[]
+vishal,10.82.88.118,Windows 11 (x64),Streamlit-App,2025-10-16T19:20:20.778899,1,0.0,0.0,ALLOW ✅,[]
+jaya,10.25.20.5,Ubuntu 22.04 (x86_64),Edge 140,2025-10-16T20:00:00.123456,1,0.0,0.0,ALLOW ✅,[]
+sagar,10.59.164.118,Windows 10 (AMD64),Edge 124,2025-10-16T20:30:30.445566,1,0.0,0.0,ALLOW ✅,[]
+bhavna,172.16.0.5,macOS Sonoma (ARM64),Safari 18,2025-10-16T21:45:45.778899,1,1.0,85.0,BLOCK ❌,"[""Impossible travel detected from last known location"", ""Login at unusual hour: 21 (user average: 9.0)"", ""High risk login attempt""]"
+chirag,10.33.77.8,Windows 11 (x64),Chrome 116,2025-10-16T22:00:00.123456,0,0.0,0.0,ALLOW ✅,[]
+damini,10.25.20.0,iOS 17 (iPhone),Mobile Safari,2025-10-16T23:10:10.543210,1,0.0,0.0,ALLOW ✅,[]
+ekta,10.11.11.11,Android 14 (Pixel),Chrome Mobile,2025-10-17T00:00:00.889900,0,,50.0,ALLOW with MFA 🔐,"[""Login at unusual hour: 0 (user average: 9.0)"", ""MFA not enabled - medium risk""]"
+faisal,10.141.158.118,Windows 10 (AMD64),Streamlit-App,2025-10-17T03:30:30.334455,1,,40.0,ALLOW with MFA 🔐,"[""Login hour somewhat unusual: 3 (avg 18.0)"", ""MFA enforced due to medium risk""]"
+gayatri,10.82.88.118,Linux (x86_64),Firefox 123,2025-10-17T07:15:15.678901,1,0.0,0.0,ALLOW ✅,[]
+hitesh,192.168.1.50,Windows 10 (AMD64),Edge 121,2025-10-17T08:00:00.987654,1,0.0,0.0,ALLOW ✅,[]
+indira,10.25.20.5,Ubuntu 22.04 (x86_64),Edge 141,2025-10-17T09:30:30.111222,1,0.0,0.0,ALLOW ✅,[]
+jitendra,10.12.45.99,Windows 11 (x64),Chrome 122,2025-10-17T10:00:00.445566,0,1.0,1.0,BLOCK❌,"[""Incorrect password""]"
+latika,10.66.6.6,macOS Ventura (ARM64),Safari 17,2025-10-17T11:40:40.778899,1,0.0,0.0,ALLOW ✅,[]
+murali,10.200.1.5,iOS 16 (iPhone),Chrome Mobile,2025-10-17T12:00:00.123456,1,0.0,0.0,ALLOW ✅,[]
+nandini,10.44.55.100,Windows 10 (AMD64),Streamlit-App,2025-10-17T13:30:30.543210,1,,35.0,ALLOW with MFA 🔐,"[""Different device detected: Windows 10 (AMD64)"", ""MFA enforced due to medium risk""]"
+punit,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-17T14:15:15.889900,1,0.0,0.0,ALLOW ✅,[]
+rajesh,192.168.1.10,macOS Sonoma (ARM64),Edge 120,2025-10-17T15:00:00.334455,0,0.0,0.0,ALLOW ✅,[]
+shilpa,10.99.12.55,Ubuntu 24.04 (x86_64),Firefox 118,2025-10-17T16:30:30.678901,1,1.0,90.0,BLOCK ❌,"[""Login from new device: Ubuntu 24.04 (x86_64)"", ""High risk login attempt""]"
+tina,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-17T17:45:45.987654,1,0.0,0.0,ALLOW ✅,[]
+uday,10.11.11.11,Windows 10 (AMD64),Firefox 117,2025-10-17T18:00:00.111222,0,0.0,0.0,ALLOW ✅,[]
+veena,10.82.88.118,Windows 11 (x64),Chrome 123,2025-10-17T19:05:05.445566,1,0.0,0.0,ALLOW ✅,[]
+wasim,10.154.73.118,iOS 17 (iPhone),Mobile Safari,2025-10-17T20:30:30.778899,1,1.0,1.0,BLOCK❌,"[""Incorrect password""]"
+xena,10.25.20.0,Windows 10 (AMD64),Edge 123,2025-10-17T21:00:00.123456,1,0.0,0.0,ALLOW ✅,[]
+yash,10.25.20.5,macOS Ventura (ARM64),Chrome 121,2025-10-17T22:15:15.543210,0,0.0,0.0,ALLOW ✅,[]
+zara,10.59.164.118,Windows 10 (AMD64),Edge 122,2025-10-17T23:30:30.889900,1,0.0,0.0,ALLOW ✅,[]
+bhavna,172.16.0.5,macOS Sonoma (ARM64),Safari 18,2025-10-18T00:00:00.334455,1,,50.0,ALLOW with MFA 🔐,"[""Login at unusual hour: 0 (user average: 18.0)"", ""MFA enforced due to medium risk""]"
+chirag,10.33.77.8,Windows 11 (x64),Chrome 116,2025-10-18T04:15:15.678901,0,0.0,0.0,ALLOW ✅,[]
+damini,10.25.20.0,iOS 17 (iPhone),Mobile Safari,2025-10-18T06:00:00.987654,1,0.0,0.0,ALLOW ✅,[]
+ekta,10.11.11.11,Android 14 (Pixel),Chrome Mobile,2025-10-18T07:30:30.111222,0,0.0,0.0,ALLOW ✅,[]
+faisal,10.141.158.118,Windows 10 (AMD64),Streamlit-App,2025-10-18T09:00:00.445566,1,0.0,0.0,ALLOW ✅,[]
+gayatri,10.82.88.118,Linux (x86_64),Firefox 123,2025-10-18T10:10:10.778899,1,0.0,0.0,ALLOW ✅,[]
+hitesh,192.168.1.50,Windows 10 (AMD64),Edge 121,2025-10-18T11:45:45.123456,1,0.0,0.0,ALLOW ✅,[]
+indira,10.25.20.5,Ubuntu 22.04 (x86_64),Edge 141,2025-10-18T12:00:00.543210,1,0.0,0.0,ALLOW ✅,[]
+jitendra,10.12.45.99,Windows 11 (x64),Chrome 122,2025-10-18T13:30:30.889900,0,1.0,70.0,BLOCK ❌,"[""Login from new IP: 10.12.45.99"", ""MFA not enabled - high risk""]"
+latika,10.66.6.6,macOS Ventura (ARM64),Safari 17,2025-10-18T14:45:45.334455,1,0.0,0.0,ALLOW ✅,[]
+murali,10.200.1.5,iOS 16 (iPhone),Chrome Mobile,2025-10-18T15:00:00.678901,1,0.0,0.0,ALLOW ✅,[]
+nandini,10.44.55.100,Windows 10 (AMD64),Streamlit-App,2025-10-18T16:30:30.987654,1,0.0,0.0,ALLOW ✅,[]
+punit,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-18T17:40:40.111222,1,0.0,0.0,ALLOW ✅,[]
+rajesh,192.168.1.10,macOS Sonoma (ARM64),Edge 120,2025-10-18T18:00:00.445566,0,0.0,0.0,ALLOW ✅,[]
+shilpa,10.99.12.55,Ubuntu 24.04 (x86_64),Firefox 118,2025-10-18T19:30:30.778899,1,0.0,0.0,ALLOW ✅,[]
+uday,10.11.11.11,Windows 10 (AMD64),Firefox 117,2025-10-18T20:45:45.123456,0,0.0,0.0,ALLOW ✅,[]
+veena,10.82.88.118,Windows 11 (x64),Chrome 123,2025-10-18T21:00:00.543210,1,1.0,1.0,BLOCK❌,"[""Incorrect password""]"
+wasim,10.154.73.118,iOS 17 (iPhone),Mobile Safari,2025-10-18T22:15:15.889900,1,0.0,0.0,ALLOW ✅,[]
+tarun,10.25.20.0,Windows 10 (AMD64),Edge 123,2025-10-19T00:00:00.111222,1,0.0,0.0,ALLOW ✅,[]
+uma,10.33.77.8,macOS Sonoma (ARM64),Safari 18,2025-10-19T01:30:30.445566,0,1.0,85.0,BLOCK ❌,"[""Login at unusual hour: 1 (user average: 12.0)"", ""MFA not enabled - high risk""]"
+vinay,10.11.11.11,Linux (x86_64),Firefox 123,2025-10-19T03:00:00.778899,1,,40.0,ALLOW with MFA 🔐,"[""Login from new device: Linux (x86_64)"", ""MFA enforced due to medium risk""]"
+waseem,10.154.73.118,iOS 17 (iPhone),Chrome Mobile,2025-10-19T06:05:05.123456,1,0.0,0.0,ALLOW ✅,[]
+yogesh,10.66.6.6,Android 14 (Samsung),Mobile Safari,2025-10-19T07:15:15.543210,0,0.0,0.0,ALLOW ✅,[]
+aditi,10.82.88.118,Windows 11 (x64),Streamlit-App,2025-10-19T08:00:00.889900,1,0.0,0.0,ALLOW ✅,[]
+bhumi,192.168.1.50,Windows 10 (AMD64),Edge 121,2025-10-19T09:30:33.334455,1,0.0,0.0,ALLOW ✅,[]
+chhavi,10.25.20.5,Ubuntu 22.04 (x86_64),Edge 140,2025-10-19T10:10:10.678901,1,0.0,0.0,ALLOW ✅,[]
+darshan,10.44.55.100,Windows 11 (x64),Firefox 120,2025-10-19T11:45:45.987654,0,0.0,0.0,ALLOW ✅,[]
+fatima,10.217.138.118,Windows 10 (AMD64),Chrome 122,2025-10-19T12:00:00.111222,1,0.0,0.0,ALLOW ✅,[]
+gautam,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-19T13:30:30.445566,1,0.0,0.0,ALLOW ✅,[]
+harshita,192.168.1.10,macOS Ventura (ARM64),Safari 17,2025-10-19T14:00:00.778899,0,0.0,0.0,ALLOW ✅,[]
+ishaan,10.99.12.55,Windows 10 (AMD64),Edge 141,2025-10-19T15:40:40.123456,1,0.0,0.0,ALLOW ✅,[]
+jignesh,10.12.45.99,Windows 11 (x64),Firefox 116,2025-10-19T16:15:15.543210,0,1.0,70.0,BLOCK ❌,"[""Login from new IP: 10.12.45.99"", ""MFA not enabled - high risk""]"
+kavita,10.33.77.8,macOS Sonoma (ARM64),Safari 18,2025-10-19T17:00:00.889900,0,0.0,0.0,ALLOW ✅,[]
+laxmi,10.11.11.11,Windows 10 (AMD64),Firefox 123,2025-10-19T18:30:30.334455,1,0.0,0.0,ALLOW ✅,[]
+manas,10.25.20.0,Windows 10 (AMD64),Edge 123,2025-10-19T19:45:45.678901,1,0.0,0.0,ALLOW ✅,[]
+namrata,10.154.73.118,iOS 17 (iPhone),Chrome Mobile,2025-10-19T20:00:00.987654,1,1.0,1.0,BLOCK❌,"[""Incorrect password""]"
+pawan,10.66.6.6,Android 14 (Samsung),Mobile Safari,2025-10-19T21:05:05.111222,0,0.0,0.0,ALLOW ✅,[]
+qureshi,10.82.88.118,Windows 11 (x64),Streamlit-App,2025-10-19T22:10:10.445566,1,0.0,0.0,ALLOW ✅,[]
+ritika,10.59.164.118,Windows 10 (AMD64),Edge 122,2025-10-20T00:00:00.778899,1,0.0,0.0,ALLOW ✅,[]
+sandeep,172.16.0.5,macOS Sonoma (ARM64),Safari 18,2025-10-20T01:45:45.123456,1,,45.0,ALLOW with MFA 🔐,"[""Login at unusual hour: 1 (user average: 15.0)"", ""MFA enforced due to medium risk""]"
+shivam,10.33.77.8,Windows 11 (x64),Chrome 116,2025-10-20T05:00:00.543210,0,0.0,0.0,ALLOW ✅,[]
+tanya,10.25.20.0,iOS 17 (iPhone),Mobile Safari,2025-10-20T06:30:30.889900,1,0.0,0.0,ALLOW ✅,[]
+udit,10.11.11.11,Android 14 (Pixel),Chrome Mobile,2025-10-20T07:00:00.334455,0,0.0,0.0,ALLOW ✅,[]
+veena,10.82.88.118,Windows 11 (x64),Chrome 123,2025-10-20T08:15:15.678901,1,0.0,0.0,ALLOW ✅,[]
+wasim,10.154.73.118,iOS 17 (iPhone),Mobile Safari,2025-10-20T09:00:00.987654,1,0.0,0.0,ALLOW ✅,[]
+xena,10.25.20.0,Windows 10 (AMD64),Edge 123,2025-10-20T10:10:10.111222,1,0.0,0.0,ALLOW ✅,[]
+yash,10.25.20.5,macOS Ventura (ARM64),Chrome 121,2025-10-20T11:45:45.445566,0,0.0,0.0,ALLOW ✅,[]
+zara,10.59.164.118,Windows 10 (AMD64),Edge 122,2025-10-20T12:00:00.778899,1,0.0,0.0,ALLOW ✅,[]
+bhavna,172.16.0.5,macOS Sonoma (ARM64),Safari 18,2025-10-20T13:30:30.123456,1,0.0,0.0,ALLOW ✅,[]
+chirag,10.33.77.8,Windows 11 (x64),Chrome 116,2025-10-20T14:40:40.543210,0,0.0,0.0,ALLOW ✅,[]
+damini,10.25.20.0,iOS 17 (iPhone),Mobile Safari,2025-10-20T15:00:00.889900,1,1.0,75.0,BLOCK ❌,"[""Login from new IP: 10.25.20.0"", ""High risk login attempt""]"
+ekta,10.11.11.11,Android 14 (Pixel),Chrome Mobile,2025-10-20T16:15:15.334455,0,0.0,0.0,ALLOW ✅,[]
+faisal,10.141.158.118,Windows 10 (AMD64),Streamlit-App,2025-10-20T17:30:30.678901,1,0.0,0.0,ALLOW ✅,[]
+gayatri,10.82.88.118,Linux (x86_64),Firefox 123,2025-10-20T18:45:45.987654,1,0.0,0.0,ALLOW ✅,[]
+hitesh,192.168.1.50,Windows 10 (AMD64),Edge 121,2025-10-20T19:00:00.111222,1,0.0,0.0,ALLOW ✅,[]
+indira,10.25.20.5,Ubuntu 22.04 (x86_64),Edge 141,2025-10-20T20:10:10.445566,1,0.0,0.0,ALLOW ✅,[]
+jitendra,10.12.45.99,Windows 11 (x64),Chrome 122,2025-10-20T21:30:30.778899,0,0.0,0.0,ALLOW ✅,[]
+latika,10.66.6.6,macOS Ventura (ARM64),Safari 17,2025-10-20T22:45:45.123456,1,0.0,0.0,ALLOW ✅,[]
+murali,10.200.1.5,iOS 16 (iPhone),Chrome Mobile,2025-10-20T23:00:00.543210,1,1.0,1.0,BLOCK❌,"[""Incorrect password""]"
+nandini,10.44.55.100,Windows 10 (AMD64),Streamlit-App,2025-10-21T00:00:00.889900,1,0.0,0.0,ALLOW ✅,[]
+punit,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-21T01:30:30.334455,1,,40.0,ALLOW with MFA 🔐,"[""Login at unusual hour: 1 (user average: 14.0)"", ""MFA enforced due to medium risk""]"
+rajesh,192.168.1.10,macOS Sonoma (ARM64),Edge 120,2025-10-21T02:45:45.678901,0,1.0,88.0,BLOCK ❌,"[""Login at unusual hour: 2 (user average: 18.0)"", ""MFA not enabled - high risk""]"
+shilpa,10.99.12.55,Ubuntu 24.04 (x86_64),Firefox 118,2025-10-21T06:00:00.987654,1,0.0,0.0,ALLOW ✅,[]
+uday,10.11.11.11,Windows 10 (AMD64),Firefox 117,2025-10-21T07:10:10.111222,0,0.0,0.0,ALLOW ✅,[]
+veena,10.82.88.118,Windows 11 (x64),Chrome 123,2025-10-21T08:00:00.445566,1,0.0,0.0,ALLOW ✅,[]
+wasim,10.154.73.118,iOS 17 (iPhone),Mobile Safari,2025-10-21T09:30:30.778899,1,0.0,0.0,ALLOW ✅,[]
+xena,10.25.20.0,Windows 10 (AMD64),Edge 123,2025-10-21T10:45:45.123456,1,0.0,0.0,ALLOW ✅,[]
+yash,10.25.20.5,macOS Ventura (ARM64),Chrome 121,2025-10-21T11:00:00.543210,0,0.0,0.0,ALLOW ✅,[]
+zara,10.59.164.118,Windows 10 (AMD64),Edge 122,2025-10-21T12:30:30.889900,1,0.0,0.0,ALLOW ✅,[]
+bhavna,172.16.0.5,macOS Sonoma (ARM64),Safari 18,2025-10-21T13:40:40.334455,1,0.0,0.0,ALLOW ✅,[]
+chirag,10.33.77.8,Windows 11 (x64),Chrome 116,2025-10-21T14:00:00.678901,0,0.0,0.0,ALLOW ✅,[]
+damini,10.25.20.0,iOS 17 (iPhone),Mobile Safari,2025-10-21T15:15:15.987654,1,0.0,0.0,ALLOW ✅,[]
+ekta,10.11.11.11,Android 14 (Pixel),Chrome Mobile,2025-10-21T16:00:00.111222,0,0.0,0.0,ALLOW ✅,[]
+faisal,10.141.158.118,Windows 10 (AMD64),Streamlit-App,2025-10-21T17:30:30.445566,1,0.0,0.0,ALLOW ✅,[]
+gayatri,10.82.88.118,Linux (x86_64),Firefox 123,2025-10-21T18:45:45.778899,1,1.0,90.0,BLOCK ❌,"[""Login from new device: Linux (x86_64)"", ""High risk login attempt""]"
+hitesh,192.168.1.50,Windows 10 (AMD64),Edge 121,2025-10-21T19:00:00.123456,1,0.0,0.0,ALLOW ✅,[]
+indira,10.25.20.5,Ubuntu 22.04 (x86_64),Edge 141,2025-10-21T20:10:10.543210,1,0.0,0.0,ALLOW ✅,[]
+jitendra,10.12.45.99,Windows 11 (x64),Chrome 122,2025-10-21T21:30:30.889900,0,0.0,0.0,ALLOW ✅,[]
+latika,10.66.6.6,macOS Ventura (ARM64),Safari 17,2025-10-21T22:45:45.334455,1,0.0,0.0,ALLOW ✅,[]
+murali,10.200.1.5,iOS 16 (iPhone),Chrome Mobile,2025-10-22T00:00:00.678901,1,1.0,60.0,BLOCK ❌,"[""Login at unusual hour: 0 (user average: 15.0)"", ""High risk login attempt""]"
+nandini,10.44.55.100,Windows 10 (AMD64),Streamlit-App,2025-10-22T04:15:15.987654,1,,45.0,ALLOW with MFA 🔐,"[""Login hour somewhat unusual: 4 (avg 18.0)"", ""MFA enforced due to medium risk""]"
+punit,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-22T06:00:00.111222,1,0.0,0.0,ALLOW ✅,[]
+rajesh,192.168.1.10,macOS Sonoma (ARM64),Edge 120,2025-10-22T07:30:30.445566,0,0.0,0.0,ALLOW ✅,[]
+shilpa,10.99.12.55,Ubuntu 24.04 (x86_64),Firefox 118,2025-10-22T08:10:10.778899,1,0.0,0.0,ALLOW ✅,[]
+uday,10.11.11.11,Windows 10 (AMD64),Firefox 117,2025-10-22T09:00:00.123456,0,0.0,0.0,ALLOW ✅,[]
+veena,10.82.88.118,Windows 11 (x64),Chrome 123,2025-10-22T10:45:45.543210,1,0.0,0.0,ALLOW ✅,[]
+wasim,10.154.73.118,iOS 17 (iPhone),Mobile Safari,2025-10-22T11:00:00.889900,1,0.0,0.0,ALLOW ✅,[]
+xena,10.25.20.0,Windows 10 (AMD64),Edge 123,2025-10-22T12:30:30.334455,1,0.0,0.0,ALLOW ✅,[]
+yash,10.25.20.5,macOS Ventura (ARM64),Chrome 121,2025-10-22T13:40:40.678901,0,0.0,0.0,ALLOW ✅,[]
+zara,10.59.164.118,Windows 10 (AMD64),Edge 122,2025-10-22T14:00:00.987654,1,0.0,0.0,ALLOW ✅,[]
+bhavna,172.16.0.5,macOS Sonoma (ARM64),Safari 18,2025-10-22T15:15:15.111222,1,0.0,0.0,ALLOW ✅,[]
+chirag,10.33.77.8,Windows 11 (x64),Chrome 116,2025-10-22T16:30:30.445566,0,0.0,0.0,ALLOW ✅,[]
+damini,10.25.20.0,iOS 17 (iPhone),Mobile Safari,2025-10-22T17:45:45.778899,1,0.0,0.0,ALLOW ✅,[]
+ekta,10.11.11.11,Android 14 (Pixel),Chrome Mobile,2025-10-22T18:00:00.123456,0,1.0,1.0,BLOCK❌,"[""Incorrect password""]"
+faisal,10.141.158.118,Windows 10 (AMD64),Streamlit-App,2025-10-22T19:30:30.543210,1,0.0,0.0,ALLOW ✅,[]
+gayatri,10.82.88.118,Linux (x86_64),Firefox 123,2025-10-22T20:00:00.889900,1,0.0,0.0,ALLOW ✅,[]
+hitesh,192.168.1.50,Windows 10 (AMD64),Edge 121,2025-10-22T21:15:15.334455,1,0.0,0.0,ALLOW ✅,[]
+indira,10.25.20.5,Ubuntu 22.04 (x86_64),Edge 141,2025-10-22T22:30:30.678901,1,0.0,0.0,ALLOW ✅,[]
+jitendra,10.12.45.99,Windows 11 (x64),Chrome 122,2025-10-22T23:45:45.987654,0,0.0,0.0,ALLOW ✅,[]
+latika,10.66.6.6,macOS Ventura (ARM64),Safari 17,2025-10-23T00:00:00.111222,1,0.0,0.0,ALLOW ✅,[]
+kunal,10.154.73.118,Windows 10 (AMD64),Chrome 118,2025-10-23T01:30:30.445566,0,1.0,75.0,BLOCK ❌,"[""Login at unusual hour: 1 (user average: 16.0)"", ""MFA not enabled - high risk""]"
+sneha,10.99.12.55,Windows 11 (x64),Edge 141,2025-10-23T02:45:45.778899,1,,40.0,ALLOW with MFA 🔐,"[""Login at unusual hour: 2 (user average: 15.0)"", ""MFA enforced due to medium risk""]"
+ravi,10.25.20.0,Windows 10 (AMD64),Edge 123,2025-10-23T06:00:00.123456,1,0.0,0.0,ALLOW ✅,[]
+simran,10.33.77.8,macOS Sonoma (ARM64),Safari 18,2025-10-23T07:10:10.543210,0,0.0,0.0,ALLOW ✅,[]
+tejas,10.11.11.11,Linux (x86_64),Firefox 123,2025-10-23T08:30:30.889900,1,0.0,0.0,ALLOW ✅,[]
+usha,10.154.73.118,iOS 17 (iPhone),Chrome Mobile,2025-10-23T09:45:45.334455,1,0.0,0.0,ALLOW ✅,[]
+vivek,10.66.6.6,Android 14 (Samsung),Mobile Safari,2025-10-23T10:00:00.678901,0,0.0,0.0,ALLOW ✅,[]
+yash,10.82.88.118,Windows 11 (x64),Streamlit-App,2025-10-23T11:15:15.987654,1,0.0,0.0,ALLOW ✅,[]
+zoya,192.168.1.50,Windows 10 (AMD64),Edge 121,2025-10-23T12:30:30.111222,1,0.0,0.0,ALLOW ✅,[]
+aakash,10.25.20.5,Ubuntu 22.04 (x86_64),Edge 140,2025-10-23T13:40:40.445566,1,0.0,0.0,ALLOW ✅,[]
+bhavik,10.44.55.100,Windows 11 (x64),Firefox 120,2025-10-23T14:00:00.778899,0,0.0,0.0,ALLOW ✅,[]
+chandni,10.217.138.118,Windows 10 (AMD64),Chrome 122,2025-10-23T15:15:15.123456,1,0.0,0.0,ALLOW ✅,[]
+deepa,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-23T16:30:30.543210,1,0.0,0.0,ALLOW ✅,[]
+gagan,192.168.1.10,macOS Ventura (ARM64),Safari 17,2025-10-23T17:45:45.889900,0,0.0,0.0,ALLOW ✅,[]
+hina,10.99.12.55,Windows 10 (AMD64),Edge 141,2025-10-23T18:00:00.334455,1,1.0,1.0,BLOCK❌,"[""Incorrect password""]"
+irfan,10.12.45.99,Windows 11 (x64),Firefox 116,2025-10-23T19:10:10.678901,0,0.0,0.0,ALLOW ✅,[]
+janki,10.33.77.8,macOS Sonoma (ARM64),Safari 18,2025-10-23T20:00:00.987654,0,0.0,0.0,ALLOW ✅,[]
+karan,10.11.11.11,Windows 10 (AMD64),Firefox 123,2025-10-23T21:15:15.111222,1,0.0,0.0,ALLOW ✅,[]
+lalit,10.25.20.0,Windows 10 (AMD64),Edge 123,2025-10-23T22:30:30.445566,1,0.0,0.0,ALLOW ✅,[]
+mita,10.154.73.118,iOS 17 (iPhone),Chrome Mobile,2025-10-23T23:00:00.778899,1,,45.0,ALLOW with MFA 🔐,"[""Login hour somewhat unusual: 23 (avg 18.0)"", ""MFA enforced due to medium risk""]"
+nisha,10.66.6.6,Android 14 (Samsung),Mobile Safari,2025-10-24T00:15:15.123456,0,0.0,0.0,ALLOW ✅,[]
+om,10.82.88.118,Windows 11 (x64),Streamlit-App,2025-10-24T01:30:30.543210,1,1.0,80.0,BLOCK ❌,"[""Login at unusual hour: 1 (user average: 15.0)"", ""High risk login attempt""]"
+poonam,192.168.1.50,Windows 10 (AMD64),Edge 121,2025-10-24T03:00:00.889900,1,0.0,0.0,ALLOW ✅,[]
+qasim,10.25.20.5,Ubuntu 22.04 (x86_64),Edge 140,2025-10-24T07:15:15.334455,1,0.0,0.0,ALLOW ✅,[]
+rehan,10.44.55.100,Windows 11 (x64),Firefox 120,2025-10-24T08:00:00.678901,0,0.0,0.0,ALLOW ✅,[]
+sunil,10.217.138.118,Windows 10 (AMD64),Chrome 122,2025-10-24T09:30:30.987654,1,0.0,0.0,ALLOW ✅,[]
+tara,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-24T10:45:45.111222,1,0.0,0.0,ALLOW ✅,[]
+varun,192.168.1.10,macOS Ventura (ARM64),Safari 17,2025-10-24T11:00:00.445566,0,0.0,0.0,ALLOW ✅,[]
+wanda,10.99.12.55,Windows 10 (AMD64),Edge 141,2025-10-24T12:30:30.778899,1,0.0,0.0,ALLOW ✅,[]
+xavier,10.12.45.99,Windows 11 (x64),Firefox 116,2025-10-24T13:40:40.123456,0,1.0,70.0,BLOCK ❌,"[""Login from new IP: 10.12.45.99"", ""MFA not enabled - high risk""]"
+yusuf,10.33.77.8,macOS Sonoma (ARM64),Safari 18,2025-10-24T14:15:15.543210,0,0.0,0.0,ALLOW ✅,[]
+zoya,10.11.11.11,Windows 10 (AMD64),Firefox 123,2025-10-24T15:00:00.889900,1,0.0,0.0,ALLOW ✅,[]
+aakash,10.25.20.0,Windows 10 (AMD64),Edge 123,2025-10-24T16:30:30.334455,1,0.0,0.0,ALLOW ✅,[]
+bhavik,10.154.73.118,iOS 17 (iPhone),Chrome Mobile,2025-10-24T17:45:45.678901,1,0.0,0.0,ALLOW ✅,[]
+chandni,10.66.6.6,Android 14 (Samsung),Mobile Safari,2025-10-24T18:00:00.987654,0,0.0,0.0,ALLOW ✅,[]
+deepa,10.82.88.118,Windows 11 (x64),Streamlit-App,2025-10-24T19:10:10.111222,1,0.0,0.0,ALLOW ✅,[]
+ekta,192.168.1.50,Windows 10 (AMD64),Edge 121,2025-10-24T20:00:00.445566,1,0.0,0.0,ALLOW ✅,[]
+fatima,10.25.20.5,Ubuntu 22.04 (x86_64),Edge 140,2025-10-24T21:30:30.778899,1,0.0,0.0,ALLOW ✅,[]
+gagan,10.44.55.100,Windows 11 (x64),Firefox 120,2025-10-24T22:45:45.123456,0,0.0,0.0,ALLOW ✅,[]
+hina,10.217.138.118,Windows 10 (AMD64),Chrome 122,2025-10-25T00:00:00.543210,1,1.0,60.0,BLOCK ❌,"[""Login at unusual hour: 0 (user average: 18.0)"", ""High risk login attempt""]"
+irfan,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-25T02:00:00.889900,1,,40.0,ALLOW with MFA 🔐,"[""Login at unusual hour: 2 (user average: 16.0)"", ""MFA enforced due to medium risk""]"
+janki,192.168.1.10,macOS Ventura (ARM64),Safari 17,2025-10-25T04:15:15.334455,0,0.0,0.0,ALLOW ✅,[]
+karan,10.99.12.55,Windows 10 (AMD64),Edge 141,2025-10-25T06:00:00.678901,1,0.0,0.0,ALLOW ✅,[]
+lalit,10.12.45.99,Windows 11 (x64),Firefox 116,2025-10-25T07:30:30.987654,0,0.0,0.0,ALLOW ✅,[]
+mita,10.33.77.8,macOS Sonoma (ARM64),Safari 18,2025-10-25T08:00:00.111222,0,0.0,0.0,ALLOW ✅,[]
+nisha,10.11.11.11,Windows 10 (AMD64),Firefox 123,2025-10-25T09:10:10.445566,1,0.0,0.0,ALLOW ✅,[]
+om,10.25.20.0,Windows 10 (AMD64),Edge 123,2025-10-25T10:30:30.778899,1,0.0,0.0,ALLOW ✅,[]
+poonam,10.154.73.118,iOS 17 (iPhone),Chrome Mobile,2025-10-25T11:45:45.123456,1,0.0,0.0,ALLOW ✅,[]
+qasim,10.66.6.6,Android 14 (Samsung),Mobile Safari,2025-10-25T12:00:00.543210,0,0.0,0.0,ALLOW ✅,[]
+rehan,10.82.88.118,Windows 11 (x64),Streamlit-App,2025-10-25T13:30:30.889900,1,0.0,0.0,ALLOW ✅,[]
+sunil,192.168.1.50,Windows 10 (AMD64),Edge 121,2025-10-25T14:40:40.334455,1,0.0,0.0,ALLOW ✅,[]
+tara,10.25.20.5,Ubuntu 22.04 (x86_64),Edge 140,2025-10-25T15:00:00.678901,1,0.0,0.0,ALLOW ✅,[]
+varun,10.44.55.100,Windows 11 (x64),Firefox 120,2025-10-25T16:15:15.987654,0,0.0,0.0,ALLOW ✅,[]
+wanda,10.217.138.118,Windows 10 (AMD64),Chrome 122,2025-10-25T17:30:30.111222,1,0.0,0.0,ALLOW ✅,[]
+xavier,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-25T18:45:45.445566,1,0.0,0.0,ALLOW ✅,[]
+yusuf,192.168.1.10,macOS Ventura (ARM64),Safari 17,2025-10-25T19:00:00.778899,0,0.0,0.0,ALLOW ✅,[]
+zoya,10.99.12.55,Windows 10 (AMD64),Edge 141,2025-10-25T20:30:30.123456,1,0.0,0.0,ALLOW ✅,[]
+aakash,10.12.45.99,Windows 11 (x64),Firefox 116,2025-10-25T21:45:45.543210,0,0.0,0.0,ALLOW ✅,[]
+bhavik,10.33.77.8,macOS Sonoma (ARM64),Safari 18,2025-10-25T22:00:00.889900,0,1.0,1.0,BLOCK❌,"[""Incorrect password""]"
+chandni,10.11.11.11,Windows 10 (AMD64),Firefox 123,2025-10-26T00:15:15.334455,1,0.0,0.0,ALLOW ✅,[]
+deepa,10.25.20.0,Windows 10 (AMD64),Edge 123,2025-10-26T01:30:30.678901,1,1.0,92.0,BLOCK ❌,"[""Login at unusual hour: 1 (user average: 18.0)"", ""Multiple anomalies detected"", ""High risk login attempt""]"
+ekta,10.154.73.118,iOS 17 (iPhone),Chrome Mobile,2025-10-26T03:00:00.987654,1,,45.0,ALLOW with MFA 🔐,"[""Login hour somewhat unusual: 3 (avg 15.0)"", ""MFA enforced due to medium risk""]"
+faisal,10.66.6.6,Android 14 (Samsung),Mobile Safari,2025-10-26T06:00:00.111222,0,0.0,0.0,ALLOW ✅,[]
+gayatri,10.82.88.118,Windows 11 (x64),Streamlit-App,2025-10-26T07:30:30.445566,1,0.0,0.0,ALLOW ✅,[]
+hitesh,192.168.1.50,Windows 10 (AMD64),Edge 121,2025-10-26T08:10:10.778899,1,0.0,0.0,ALLOW ✅,[]
+indira,10.25.20.5,Ubuntu 22.04 (x86_64),Edge 140,2025-10-26T09:00:00.123456,1,0.0,0.0,ALLOW ✅,[]
+jitendra,10.44.55.100,Windows 11 (x64),Firefox 120,2025-10-26T10:45:45.543210,0,0.0,0.0,ALLOW ✅,[]
+latika,10.217.138.118,Windows 10 (AMD64),Chrome 122,2025-10-26T12:00:00.889900,1,0.0,0.0,ALLOW ✅,[]
+murali,10.59.164.118,Windows 10 (AMD64),Streamlit-App,2025-10-26T13:30:30.334455,1,0.0,0.0,ALLOW ✅,[]
+nandini,192.168.1.10,macOS Ventura (ARM64),Safari 17,2025-10-26T14:00:00.678901,0,0.0,0.0,ALLOW ✅,[]
+punit,10.99.12.55,Windows 10 (AMD64),Edge 141,2025-10-26T15:15:15.987654,1,0.0,0.0,ALLOW ✅,[]
+rajesh,10.12.45.99,Windows 11 (x64),Firefox 116,2025-10-26T16:30:30.111222,0,0.0,0.0,ALLOW ✅,[]
+shilpa,10.33.77.8,macOS Sonoma (ARM64),Safari 18,2025-10-26T17:45:45.445566,0,0.0,0.0,ALLOW ✅,[]
+uday,10.11.11.11,Windows 10 (AMD64),Firefox 123,2025-10-26T18:00:00.778899,1,0.0,0.0,ALLOW ✅,[]
+veena,10.25.20.0,Windows 10 (AMD64),Edge 123,2025-10-26T19:30:30.123456,1,0.0,0.0,ALLOW ✅,[]
+wasim,10.154.73.118,iOS 17 (iPhone),Chrome Mobile,2025-10-26T20:45:45.543210,1,1.0,1.0,BLOCK❌,"[""Incorrect password""]"
+xena,10.66.6.6,Android 14 (Samsung),Mobile Safari,2025-10-26T21:00:00.889900,0,0.0,0.0,ALLOW ✅,[]
+yash,10.82.88.118,Windows 11 (x64),Streamlit-App,2025-10-26T22:15:15.334455,1,0.0,0.0,ALLOW ✅,[]
+zara,192.168.1.50,Windows 10 (AMD64),Edge 121,2025-10-26T23:30:30.678901,1,0.0,0.0,ALLOW ✅,[]
+chitra,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-07T23:53:10.976005,1,0.0,0.0,ALLOW ✅,[]
+harsh,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-07T23:53:41.120721,1,,50.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.217.138.118"", ""Login at unusual hour: 23 (user average: 6.7 \u00b1 4.4)"", ""MFA enforced due to medium risk""]"
+harsh,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-07T23:53:41.120721,1,0.0,50.0,ALLOW,"[""Login from new IP: 10.217.138.118"", ""Login at unusual hour: 23 (user average: 6.7 \u00b1 4.4)"", ""MFA enforced due to medium risk""]"
+harshali,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-08T00:47:42.519170,1,0.0,0.0,ALLOW ✅,[]
+harsh,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-08T00:48:44.229978,1,1.0,70.0,BLOCK ❌,"[""Login from new IP: 10.217.138.118"", ""Login at unusual hour: 0 (user average: 7.6 \u00b1 5.7)"", ""5 login attempts in last hour"", ""High risk login attempt""]"
+geet12,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-08T00:49:21.723980,1,,50.0,ALLOW with MFA 🔐,"[""Login from new IP: 10.217.138.118"", ""Login at unusual hour: 0 (user average: 13.2 \u00b1 4.1)"", ""MFA enforced due to medium risk""]"
+geet12,10.217.138.118,Windows 10 (AMD64),Streamlit-App,2025-10-08T00:49:21.723980,1,0.0,50.0,ALLOW,"[""Login from new IP: 10.217.138.118"", ""Login at unusual hour: 0 (user average: 13.2 \u00b1 4.1)"", ""MFA enforced due to medium risk""]"
+sujit,192.168.31.219,Windows 10 (AMD64),Streamlit-App,2025-12-07T16:45:18.590967,1,0.0,0.0,ALLOW ✅,[]
+harsh,192.168.31.219,Windows 10 (AMD64),Streamlit-App,2025-12-07T16:46:33.781360,1,,50.0,ALLOW with MFA 🔐,"[""Login from new IP: 192.168.31.219"", ""Login at unusual hour: 16 (user average: 7.4 \u00b1 5.8)"", ""MFA enforced due to medium risk""]"
+harsh,192.168.31.219,Windows 10 (AMD64),Streamlit-App,2025-12-07T16:46:33.781360,1,0.0,50.0,ALLOW,"[""Login from new IP: 192.168.31.219"", ""Login at unusual hour: 16 (user average: 7.4 \u00b1 5.8)"", ""MFA enforced due to medium risk""]"
+Harshal,10.25.9.140,Windows 10 (AMD64),Streamlit-App,2026-05-11T11:18:18.777909,1,0.0,0.0,ALLOW ✅,[]
+Harshal,10.25.9.140,Windows 10 (AMD64),Streamlit-App,2026-05-11T11:48:52.558329,1,0.0,0.0,ALLOW ✅,[]
+Manish,10.25.9.140,Windows 10 (AMD64),Streamlit-App,2026-05-11T11:57:19.500586,1,0.0,0.0,ALLOW ✅,[]
+Manish,10.25.9.140,Windows 10 (AMD64),Streamlit-App,2026-05-11T12:04:56.722903,1,0.0,0.0,ALLOW ✅,[]
+suraj,10.25.9.140,Windows 10 (AMD64),Streamlit-App,2026-05-11T12:28:24.697044,1,0.0,0.0,ALLOW ✅,[]

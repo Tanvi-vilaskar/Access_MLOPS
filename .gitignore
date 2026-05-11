@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Model artifacts (large binaries — track only the latest via Git LFS or CI artifacts)
+models/*.pkl
+models/*.sha256
+!models/.gitkeep
+
+# Monitoring logs (generated at runtime)
+mlops/monitoring/pipeline.log
+mlops/monitoring/trigger.log
+mlops/monitoring/drift_report.txt
+
+# Data (may contain PII — never commit raw user data)
+data/videos/
+
+
+# Test coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
